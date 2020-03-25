@@ -22,18 +22,13 @@
 <body>
     <form action="" method="post">
         <h1>Login</h1>
-    <p>Username:
+    <p>Username: 
         <input type="text" name="name">
     </p>
-    <p>Password:
+    <p>Password: 
         <input type="password" name="password">
     </p>
     <input type="submit" value="Login">
-    <input type="submit" name="logout" value="Logout">
     </form>
-    <?php if (isset($_POST["logout"])) {
-      // code...
-      header("Location:Registration.php");
-    } ?>
 </body>
 </html>
